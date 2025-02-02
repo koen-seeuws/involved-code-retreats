@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvolvedPoker.Models", "InvolvedPoker.Models\InvolvedPoker.Models.csproj", "{06F5704D-CCFC-4004-AC7F-FC781D806370}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvolvedPokerBot", "InvolvedPokerBot\InvolvedPokerBot.csproj", "{29DC303D-8485-49C2-9DF9-56E923DD54C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F5704D-CCFC-4004-AC7F-FC781D806370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F5704D-CCFC-4004-AC7F-FC781D806370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F5704D-CCFC-4004-AC7F-FC781D806370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F5704D-CCFC-4004-AC7F-FC781D806370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DC303D-8485-49C2-9DF9-56E923DD54C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DC303D-8485-49C2-9DF9-56E923DD54C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DC303D-8485-49C2-9DF9-56E923DD54C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DC303D-8485-49C2-9DF9-56E923DD54C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23484D3F-AFC4-4231-BCB9-05992DDA99FB}
+	EndGlobalSection
+EndGlobal
