@@ -6,4 +6,4 @@ public record CategoryDto(string Name, int SpectralWeight, Dictionary<string, Ru
 
 
 
-public record RuleDto(double? Min, double? Max, string? Value, string? Pattern, double Weight);
+public record RuleDto(decimal? Min, decimal? Max, string? Value, string? Pattern, decimal Weight);

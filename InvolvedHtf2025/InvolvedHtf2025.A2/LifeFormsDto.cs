@@ -4,7 +4,7 @@ public record LifeFormsDto(LifeFormDto[] LifeForms);
 
 public record LifeFormDto(
     string Id,
-    double BioluminescenceFrequency,
+    decimal BioluminescenceFrequency,
     string MovementPattern,
     string ThermalSignature,
     string SizeEstimate,
