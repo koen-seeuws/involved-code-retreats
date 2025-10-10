@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using InvolvedHtf2025.Common;
 
-Console.WriteLine("Hello, World!");
+var client = await Htf2025ClientFactory.GetAuthenticatedClient();

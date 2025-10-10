@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvolvedHtf2025.B2", "Invol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvolvedHtf2025.B3", "InvolvedHtf2025.B3\InvolvedHtf2025.B3.csproj", "{2F0553C5-67B1-4965-BB48-0897357B9A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvolvedHtf2025.Common", "InvolvedHtf2025.Common\InvolvedHtf2025.Common.csproj", "{C6BB2933-DDDB-4971-A33B-C534C4C3B478}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{2F0553C5-67B1-4965-BB48-0897357B9A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F0553C5-67B1-4965-BB48-0897357B9A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F0553C5-67B1-4965-BB48-0897357B9A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BB2933-DDDB-4971-A33B-C534C4C3B478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BB2933-DDDB-4971-A33B-C534C4C3B478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BB2933-DDDB-4971-A33B-C534C4C3B478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BB2933-DDDB-4971-A33B-C534C4C3B478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
