@@ -16,14 +16,14 @@ public static class Htf2025ClientFactory
             BaseAddress = new Uri(BaseAddress)
         };
 
-        var tokenResponse = await client.GetFromJsonAsync<TokenResponse>($"Team/Token?username={Username}&password={Password}");
+        var tokenResponse = await client.GetFromJsonAsync<TokenResponse>($"Team/Token?teamName={Username}&password={Password}");
         
         if (tokenResponse is null)
         {
             throw new InvalidOperationException("Failed to retrieve token.");
         }
         
-        client.DefaultRequestHeaders.Authorization = AuthenticationHeaderValue.Parse(tokenResponse.Token);
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenResponse.Token);
 
         return client;
     }
