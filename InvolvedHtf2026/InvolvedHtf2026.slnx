@@ -7,5 +7,6 @@
   <Folder Name="/ThePurists/">
     <Project Path="ThePurists/TheLedgerOfBrokenVows/TheLedgerOfBrokenVows.csproj" />
     <Project Path="ThePurists/TheLoomRepeats/TheLoomRepeats.csproj" />
+    <Project Path="ThePurists/TheWardOfThreeKeepers/TheWardOfThreeKeepers.csproj" />
   </Folder>
 </Solution>
