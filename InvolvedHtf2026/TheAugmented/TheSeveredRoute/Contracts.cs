@@ -15,6 +15,6 @@ public sealed class WaygateNode
     public string Id { get; set; } = string.Empty;
 
     // Only what this one gate can see. Nothing shows you the whole network.
-    public List<WaygateConnection> Connections { get; set; } = new List<WaygateConnection>();
+    public List<WaygateConnection> Connections { get; set; } = [];
 }
 

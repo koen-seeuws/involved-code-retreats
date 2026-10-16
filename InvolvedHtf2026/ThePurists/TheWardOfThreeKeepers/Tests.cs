@@ -72,7 +72,7 @@ public class DistillWardTests
 
         var result = new Solution().DistillWard(lines, 8, runeValues);
 
-        Assert.Equal(new[] { 20, 19 }, result);
+        Assert.Equal([20, 19], result);
     }
 
     [Fact]
@@ -90,14 +90,14 @@ public class DistillWardTests
 
         var result = new Solution().DistillWard(lines, 3, runeValues);
 
-        Assert.Equal(new[] { 7 }, result);
+        Assert.Equal([7], result);
     }
 
     [Fact]
     public void DistillWard_ReturnsNoSumsWhenThereIsNoCompleteWord()
     {
         var result = new Solution().DistillWard(
-            new[] { "A", "B" },
+            ["A", "B"],
             3,
             new Dictionary<char, int> { ['A'] = 1, ['B'] = 2 });
 
@@ -111,8 +111,8 @@ public class SealTheWardTests
     public void SealTheWard_SubtractsMatchingCounterSealsAndFloorsAtZero()
     {
         var result = new Solution().SealTheWard(
-            new[] { 20, 19 },
-            new[] { 15, 25 });
+            [20, 19],
+            [15, 25]);
 
         Assert.Equal(5, result);
     }
@@ -121,8 +121,8 @@ public class SealTheWardTests
     public void SealTheWard_ReturnsZeroWhenThereAreNoWords()
     {
         var result = new Solution().SealTheWard(
-            Array.Empty<int>(),
-            new[] { 15, 25 });
+            [],
+            [15, 25]);
 
         Assert.Equal(0, result);
     }
@@ -131,8 +131,8 @@ public class SealTheWardTests
     public void SealTheWard_PairsOnlyItemsAtMatchingPositions()
     {
         var result = new Solution().SealTheWard(
-            new[] { 20, 19, 30 },
-            new[] { 15, 25 });
+            [20, 19, 30],
+            [15, 25]);
 
         Assert.Equal(5, result);
     }

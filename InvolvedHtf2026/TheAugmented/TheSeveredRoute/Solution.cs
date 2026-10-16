@@ -2,7 +2,7 @@ namespace TheSeveredRoute;
 
 public class Solution
 {
-    public List<string> Memory { get; } = new List<string>();
+    public List<string> Memory { get; } = [];
 
     public string ExploreStep(WaygateNode currentNode, string destinationId)
     {

@@ -21,14 +21,14 @@ public class Solution
             var groupsInProximity = groups.Where(g => g.Any(c => (Math.Abs(character.Position.X - c.Position.X) + Math.Abs(character.Position.Y - c.Position.Y)) <= proximityRange)).ToList();
 
             if(groupsInProximity.Count == 0) {
-                groups.Add(new List<Character>() { character });
+                groups.Add([character]);
             } else if (groupsInProximity.Count == 1) {
                 groupsInProximity.First().Add(character);
             } else {
                 foreach(var groupInProximity in groupsInProximity) {
                     groups.Remove(groupInProximity);
                 }
-                groups.Add(groupsInProximity.SelectMany(c => c).Append(character).ToList());
+                groups.Add([.. groupsInProximity.SelectMany(c => c), character]);
             }
         }
 
