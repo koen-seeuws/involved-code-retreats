@@ -1,6 +1,6 @@
 ﻿namespace TheLedgerOfBrokenVows;
 
-public class Tests
+public class TheLedgerOfBrokenVowsTests
 {
     [Theory]
     [InlineData(new int[] { }, 0L)]
