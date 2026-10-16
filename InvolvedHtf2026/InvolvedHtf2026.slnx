@@ -4,5 +4,7 @@
     <Project Path="TheAugmented/TheShateredLine/TheShateredLine.csproj" />
     <Project Path="TheAugmented/TheWayGatesBlindSpot/TheWayGatesBlindSpot.csproj" />
   </Folder>
-  <Folder Name="/ThePurists/" />
+  <Folder Name="/ThePurists/">
+    <Project Path="ThePurists/TheLedgerOfBrokenVows/TheLedgerOfBrokenVows.csproj" />
+  </Folder>
 </Solution>

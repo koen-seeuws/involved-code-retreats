@@ -86,11 +86,11 @@ public class Solution
             q3 = orderedSpeeds[half + half / 2];
 
         // Interquartile range
-        double iqr = q3 - q1;
+        var iqr = q3 - q1;
 
         // Calculate bounds
-        double lowerBound = q1 - 1.5 * iqr;
-        double upperBound = q3 + 1.5 * iqr;
+        var lowerBound = q1 - 1.5 * iqr;
+        var upperBound = q3 + 1.5 * iqr;
 
         return (int)Math.Ceiling(
             characters

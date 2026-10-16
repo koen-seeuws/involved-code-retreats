@@ -39,7 +39,7 @@ public class Solution
         var location = new Location();
 
 
-        for (int i = 0; i < tags.Length; i++)
+        for (var i = 0; i < tags.Length; i++)
         {
             var tag = tags[i];
 
