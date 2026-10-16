@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/TheAugmented/">
+    <Project Path="TheAugmented/TheSeveredRoute/TheSeveredRoute.csproj" />
+    <Project Path="TheAugmented/TheShateredLine/TheShateredLine.csproj" />
+    <Project Path="TheAugmented/TheWayGatesBlindSpot/TheWayGatesBlindSpot.csproj" />
+  </Folder>
+  <Folder Name="/ThePurists/" />
+</Solution>
